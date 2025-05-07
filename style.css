@@ -1,0 +1,96 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(images/hugo22.jpg);
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigasi */
+nav {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffd700;
+}
+
+/* Header */
+header {
+    padding: 2em 1em;
+    background-color: #e3f2fd;
+    border-bottom: 2px solid #90caf9;
+}
+
+header h1 {
+    margin-top: 0.5em;
+    color: #0d47a1;
+}
+
+header p {
+    color: #555;
+}
+
+/* Artikel Tentang Saya */
+article {
+    padding: 2em 1em;
+    background-color: #ffffff;
+    margin: 1em auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+article h2 {
+    margin-bottom: 1em;
+    color: #1565c0;
+}
+
+/* Tabel Skill */
+table {
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 1em;
+    text-align: left;
+}
+
+th {
+    background-color: #1976d2;
+    color: white;
+}
+
+td ul {
+    padding-left: 1.2em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    margin-top: 3em;
+}
